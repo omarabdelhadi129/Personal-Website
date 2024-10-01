@@ -1,9 +1,25 @@
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(max-width: 500px)");
+
+    setIsMobile(mediaQuery.matches);
+
+    const handleMediaQueryChange = (event) => {
+      setIsMobile(event.matches);
+    };
+
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
+
+    return () => {
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
+    };
+  }, []);
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -28,7 +44,7 @@ const Hero = () => {
 
       <ComputersCanvas />
 
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+      <div className='absolute xs:bottom-10 bottom-32 w-full flex flex-col justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div
@@ -44,6 +60,11 @@ const Hero = () => {
             />
           </div>
         </a>
+        {isMobile && (
+          <div className='mt-2 bg-secondary text-white text-xs p-2 rounded-xl'>
+            Click here to scroll! 🖱️
+          </div>
+        )}
       </div>
     </section>
   );
