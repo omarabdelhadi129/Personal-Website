@@ -61,9 +61,9 @@ const experiences = [
     iconBg: "white",
     date: "June 2021 - Present",
     points: [
-      "Teaching Assistant for web development courses in the Department of Computer Science, guiding students through JavaScript, Python, and Java programming labs and workshops.",
-      "Conducting weekly labs, assignment workshops, and private office hours to assist students with web development concepts and code debugging in JavaScript, Python, and Java.",
-      "Collaborating with academic staff to enhance the learning experience in web technologies.",
+      "Assisted in web development courses, guiding students through programming labs and workshops using JavaScript, Python, and Java.",
+      "Led weekly labs, workshops, and office hours to help students with web development concepts and code debugging in JavaScript, Python, and Java.",
+      "Collaborated with academic staff to improve course materials and enhance the student learning experience in web technologies.",
     ],
   },
   {
@@ -73,10 +73,9 @@ const experiences = [
     iconBg: "white",
     date: "May 2022 - Aug 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed automated test plans and scripts to identify software issues using TestFlight and Android Studio.",
+      "Collaborated with engineers to design innovative products for Getit applications, tracking progress with Jira and Git.",
+      "Built responsive SPAs using React Native for mobile and React with JavaScript ES6 for web, enhancing user experience across iOS and Android platforms using XCode and Android Studio.",
     ],
   },
   {
@@ -86,23 +85,21 @@ const experiences = [
     iconBg: "white",
     date: "Sep 2022 - Aug 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained .NET C# microservices and aggregator services, along with a React front end utilizing TypeScript, and automated workflows and builds using CI/CD pipelines for the Barracuda SMP app.",
+      "Actively participated in planning and decision-making meetings, collaborating with the team to address required changes and assigning tasks based on team members’ focus areas.",
+      "Managed and maintained the front-end repository, reviewing pull requests and setting up workflows and build actions in GitHub, ensuring code quality and adherence to best practices.",
     ],
   },
   {
-    title: "Juniour Software Developer",
+    title: "Junior Software Developer",
     company_name: "Canadian Space Division (DND)",
     icon: dnd,
     iconBg: "white",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Automated Space Domain Awareness tasks by developing Java back-end components using Maven and Spring, and interactive React front-end interfaces built with Vite, optimizing data processing and user experience.",
+      "Collaborated with a multidisciplinary team, utilizing Kafka, Docker, and SQL to implement key features for the Space COP application, enhancing space domain awareness and monitoring capabilities.",
+      "Engaged in Agile/Scrum development, contributing to feature enhancements and operational efficiency, while onboarding and training new student developers.",
     ],
   },
 ];

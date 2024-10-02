@@ -49,7 +49,7 @@ const Contact = () => {
             <FontAwesomeIcon icon={faEnvelope} /> <span>Email</span> 
           </a> 
           <a
-            href="./src/assets/documents/resume.pdf"
+            href="./documents/resume.pdf"
             className="flex items-center space-x-2"
             target="_blank"
           >
