@@ -36,8 +36,8 @@ const Hero = () => {
             <span class='waving-hand'>👋🏻</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am  Software devloper <br className='sm:block hidden' />
-            
+            I am a Software devloper <br className='sm:block hidden' />
+
           </p>
         </div>
       </div>
