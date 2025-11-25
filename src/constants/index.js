@@ -61,9 +61,10 @@ const experiences = [
     iconBg: "white",
     date: "Jan 2024 - Present",
     points: [
-      "Developed Java-based back-end solutions using Maven and Spring, creating cron-scheduled scripts and API endpoints to automate data ingestion, organize databases efficiently, and support front-end data access for analysis.",
-      "Designed and delivered interactive, customizable graphs, maps, and diagrams on the React front end using TypeScript, incorporating analytical calculations to help stakeholders monitor key metrics effectively.",
-      "Deployed applications to Azure using Tanzu and implemented comprehensive test suites for both back-end services and front-end components, ensuring high code quality and reliability.",
+      "Engineered and maintained Spring Boot microservices and automated cron pipelines that ingest and process multi-source satellite data daily, improving data reliability and accessibility for mission analysis.",
+      "Developed full-stack features using React, TypeScript, and Java, building interactive dashboards, orbital maps, and analytical tools used by internal stakeholders to monitor mission-critical operational metrics.",
+      "Managed deployment workflows across Azure and Tanzu, integrating CI/CD automation to ensure consistent and reliable delivery across environments.",
+      "Implemented comprehensive JUnit and Vitest test suites, increasing coverage, reducing regression issues, and improving long-term maintainability of backend and frontend systems.",
     ],
   },
   {
@@ -73,10 +74,10 @@ const experiences = [
     iconBg: "white",
     date: "Sep 2022 - Aug 2023",
     points: [
-      "Developed and enhanced .NET C# microservices and REST APIs, implementing new features and resolving issues to support the functionality of the RMM application.",
-      "Built interactive React front-end components and integrated them with backend APIs for the Eureka project, ensuring seamless user interaction and data flow.",
-      "Utilized AWS tools to monitor and maintain the state of services, while designing CI/CD pipelines to automate code scans, enforce code quality, and manage package licenses effectively.",
-      "Engineered a low-level system agent to interface directly with Windows OS components, using C++ and scripting to gather and process critical SaaS data, like hardware, software, and performance metrics, for downstream analysis.",
+      "Enhanced .NET C# microservices and REST APIs by delivering new features and resolving production issues for a large-scale RMM platform.",
+      "Developed React components and integrated them with backend APIs to improve UI responsiveness, reliability, and overall user experience.",
+      "Utilized AWS for service monitoring and implemented CI/CD pipelines to automate code scans, enforce quality gates, and manage licensing compliance.",
+      "Built a Windows system agent using C# and scripting to collect hardware, software, and performance telemetry for downstream analytics and reporting.",
     ],
   },
   {
@@ -86,21 +87,21 @@ const experiences = [
     iconBg: "white",
     date: "May 2022 - Aug 2022",
     points: [
-      "Developed and optimized React Native mobile applications and React-based web interfaces, ensuring seamless user experiences across iOS, Android, and desktop platforms.",
-      "Designed MongoDB queries to handle large datasets, while analyzing and optimizing query performance.",
-      "Implemented REST APIs in Node.js to enable efficient data exchange between the backend and front-end.",
+      "Developed React Native mobile features and optimized React web components to ensure smooth and consistent UX across iOS, Android, and desktop platforms.",
+      "Designed and optimized MongoDB queries to efficiently handle large datasets and improve application responsiveness.",
+      "Implemented Node.js REST APIs to streamline backend–frontend communication and support new product features.",
     ],
   },
   {
-    title: "Teacher Assistant",
+    title: "Teaching Assistant",
     company_name: "Carleton University",
     icon: carleton,
     iconBg: "white",
     date: "Jun 2021 - Dec 2024",
     points: [
-      "Assisted in web development courses, guiding students through programming labs and workshops using JavaScript, Python, and Java.",
-      "Led weekly labs, workshops, and office hours to help students with web development concepts and code debugging in JavaScript, Python, and Java.",
-      "Collaborated with academic staff to improve course materials and enhance the student learning experience in web technologies.",
+      "Mentored students in programming labs for Python, JavaScript, and Java, helping them understand core concepts, debug code, and apply best practices.",
+      "Led weekly labs, workshops, and office hours to reinforce course material and support student success in software development topics.",
+      "Collaborated with professors to refine course content, improve structure, and enhance the overall learning experience for students.",
     ],
   },
 ];
