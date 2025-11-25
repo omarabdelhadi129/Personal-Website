@@ -32,8 +32,7 @@ const navLinks = [
 ];
 
 const about =
-  "Passionate about technology and innovation, I'm a software developer with expertise in Java, C/C++, Python, JavaScript, HTML, React, CSS tailwind, Bootstrap,Haskell, TypeScript, Bash, SQL, R, React, Redux, Angular. My experience spans full-stack development, including microservices, frontend, and backend systems. I thrive on collaborative coding and excel in version control, maintaining code quality, and fostering effective team dynamics. My project management skills, honed through teaching roles and tools like Jira, enable me to drive success. I'm excited about the possibilities technology offers and am always eager to take on new challenges. Let's connect and explore how we can innovate together. 😊💻";
-
+  "Software Developer with hands-on experience building full-stack, cloud-ready systems across the Canadian Space Division and industry. I work with Java, Spring Boot, React, TypeScript, and cloud platforms like Azure and AWS to deliver reliable microservices, dashboards, and automated data pipelines. I enjoy solving real-world problems, improving system reliability, and creating clean, maintainable software that supports mission-critical workflows. I’ve also supported hundreds of students as a Teaching Assistant, strengthening my communication, leadership, and technical mentoring skills. I’m always exploring new ways to grow, build, and innovate. 🚀💻";
 const services = [
   {
     title: "Software Developer",
